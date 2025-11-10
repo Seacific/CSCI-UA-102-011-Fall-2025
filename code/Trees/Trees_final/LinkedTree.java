@@ -9,7 +9,8 @@ import StackQueues.Queue;
 import StackQueues.LinkedQueue;
 
 public class LinkedTree<E> implements Tree<E>{
-	private static class Node<E> implements Position<E>{
+	private static class Node<E> implements Position<E>{p
+		private int id;
 		private E element;
 		private DoublyLinkedList<Position<E>> children;
 		private Node<E> parent;
